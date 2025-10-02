@@ -1,11 +1,17 @@
 # Notify
 
 `Notify` control is used to display information using a pop-up in-app notification.
+
 `Notify` control inherits from [`Container`](https://flet.dev/docs/controls/container).
+
+Recommended to add notify to the page on top of other controls
 
 ## Examples
 
-<img src="media/default_notify.png"><img src="media/warning_notify.png"><img src="media/error_notify.png">
+<img src="media/action.gif" width="100%">
+
+<img src="media/default_notify.png" width="33%"><img src="media/warning_notify.png" width="33%"><img src="media/error_notify.png" width="33%">
+
 
 ```python
 from flet import *
@@ -392,6 +398,12 @@ Enum of notification display directions.
 
 Each NotifyOpenDirection value has its own 2 offsets.
 
+<br>
+<details>
+    <summary><b>Directions and Offsets cheat sheet</b></summary>
+    <img src="media/directions_n_offsets_sheet.jpg" width="100%">
+</details>
+
 ## Properties
 
 ### `BOTTOM_TO_TOP`
@@ -480,3 +492,4 @@ Defaults to `Offset(-2, -4.1)`
 From left to right, at top. End offset.
 
 Defaults to `Offset(-0.625, -4.1)`
+
