@@ -1,4 +1,4 @@
-# Notify
+# Notify - Pop-up In-App Notifications
 
 `Notify` control is used to display information using a pop-up in-app notification.
 
@@ -492,4 +492,5 @@ Defaults to `Offset(-2, -4.1)`
 From left to right, at top. End offset.
 
 Defaults to `Offset(-0.625, -4.1)`
+
 
